@@ -1,0 +1,174 @@
+.text1 {
+    border-radius: 20px;
+    width: 300px;
+    border-color: green;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-inline: 10px;
+}
+
+.search button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.text1 {
+    margin-top: 10px;
+}
+
+div.container {
+    display: flex;
+    text-align: centre;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: aquamarine;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.container.container::-webkit-sticky {
+    position: sticky;
+}
+
+.container div {
+    display: flex;
+    position: sticky;
+}
+
+.nav {
+    flex: 1;
+    text-align: center;
+    margin-right: 450px;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.img1 {
+    width: 150px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: initial;
+}
+
+.img0 {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    display: flexbox;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+}
+
+.container2 {
+    margin: 20px;
+    display: flex;
+}
+
+.items1 {
+    flex: 1;
+    width: 400px;
+    background-color: lightgray;
+    position: sticky;
+    top: 0px;
+    height: inherit;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: honeydew;
+    width: 100%;
+}
+
+.images div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movieinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+.poster img {
+    max-width: 250px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-color: chartreuse;
+}
+
+.movieinfo h2 {
+    font-size: 20px;
+    font-display: inherit;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movieinfo p {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+.movieinfo h4 {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.poster {
+    display: flex;
+    flex: 1;
+}
+
+.items {
+    margin: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.item {
+    padding: 10px;
+    font: bolder;
+    list-style-type: none;
+    font: bolder;
+}
+
+.row {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.column {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
